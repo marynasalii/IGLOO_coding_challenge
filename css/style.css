@@ -1,5 +1,93 @@
-body {
-    font-family: 'Open Sans', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-/* Your styles here ... */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    font-size: 15px;
+}
+
+/***********
+HEADER
+***********/
+
+header {
+    height: 62px;
+    width: 100%;
+}
+
+header .container {
+    width: 1108px;
+    margin: 0 auto;
+}
+
+header .container nav {
+    width: 765px;
+    height: 62px;
+}
+header .container nav ul {
+    height: 62px;
+}
+
+header .container nav ul li {
+    line-height: 62px;
+    height: 62px;
+    display: inline-block;
+    list-style: none;
+}    
+
+header .container nav ul li a {
+    display: block;
+    font-size: 0.9333rem;
+    color: #020202;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+/*h1{
+      font-size:14px;
+      font-weight:normal;
+      margin:0 0 -1.45em;
+    }
+    h4{
+      font-size:24px;
+    }
+    li {
+        display: inline-block;
+        text-align: left;
+    }
+    a{
+      color:#000;
+    }
+    a:hover
+    {
+      color:
+    }
+    span {
+        display: inline-block;
+        width: 300px;
+        margin-top:20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-right:0;
+        overflow: hidden;
+    }
+    body {
+        font-family: 'Oswald', sans-serif;
+    }
+    #content{
+      width: 1100px;
+      margin: 0 auto;
+    }
+    .footer{
+      background:#000;
+      color:#FFFFFF;
+      text-align:center;
+    }*/
