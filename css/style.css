@@ -21,11 +21,20 @@ header {
 header .container {
     width: 1108px;
     margin: 0 auto;
+    height: 100%;
+}
+
+header .container::after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
 }
 
 header .container nav {
     width: 765px;
     height: 62px;
+    float: left;
 }
 header .container nav ul {
     height: 62px;
@@ -36,7 +45,7 @@ header .container nav ul li {
     height: 62px;
     display: inline-block;
     list-style: none;
-}    
+} 
 
 header .container nav ul li a {
     display: block;
@@ -44,9 +53,74 @@ header .container nav ul li a {
     color: #020202;
     text-transform: uppercase;
     text-decoration: none;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 18px;
+    padding-left: 18px;
 }
+
+header .container nav ul li:first-of-type a {
+    padding-left: 0; 
+}
+
+header .container nav ul li:last-of-type a {
+    padding-right: 0;
+}
+
+header .container nav ul li a:hover {
+    color: #71a4d5;
+}   
+
+header .container section {
+    height: 100%;
+    width: 224px;
+    float: right;
+    line-height: 62px;
+}
+
+header .container section form {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+header .container section form img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 16px;
+    bottom: 22px;
+}
+
+header .container section form input {
+    width: 100%;
+    border: 1px solid #666666;
+    height: 31px;
+    border-radius: 14px;
+    padding-left: 38px;
+    margin: 0;
+}
+
+header .container section form input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
