@@ -4,7 +4,7 @@
 <head>
   <meta charset=utf-8>
   <title> web dev challenge </title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,7 +24,7 @@
       </nav>
       <section role="search" class="header-search">
         <form action="#" method="get">
-          <input type="search" name="search" id="search" placeholder="Search everywhere" maxlength="200" />
+          <input type="search" name="search" class="header-search" placeholder="Search everywhere" maxlength="200" />
           <img src="images/search-icon.png" alt="search">
         </form>
       </section>
@@ -33,13 +33,55 @@
   <!--end header-->
 
   <section class="slider">
-
-  </section>
-  <!--end .slider-->
+    <div class="slider-wrapper">
+      <div class="slider-caption">
+        <h1>Welcome to the Community</h1>
+        <h3>Share, connect and =collaborate.</h3>
+      </div>
+      <input checked="" type="radio" name="slider" id="slide1" selected="false">
+      <input type="radio" name="slider" id="slide2" selected="false">
+      <input type="radio" name="slider" id="slide3" selected="false">
+      <div class="slides">
+        <div class="overflow">
+          <div class="inner">
+            <img src="images/slider-background.png" alt="community-places">
+            <img src="images/slider-background.png" alt="community-places">
+            <img src="images/slider-background.png" alt="community-places">
+          </div>
+        </div>
+      </div>
+      <div class="slider-labels">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+    </div>
+  </section> <!--end .slider-->
 
   <section class="content">
     <div class="container">
-
+      <h2>Stories from Us</h2>
+      <article>
+        <span class="content-date">May 20, 2015</span>
+        <h4>Corporate Announcement</h4>
+        <img src="images/article1-pic.png" alt="corporate-announcement">
+        <p class="content-acticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dignissimos debitis itaque dolore est ut cumque natus, ratione mollitia rem perferendis necessitatibus quae voluptate illum totam, nulla officiis maiores sapiente dolorum sed sequi. Ratione, quod.</p>
+        <a href="#" class="content-read-more">read more</a>
+      </article>
+      <article>
+        <span class="content-date">July 18, 2015</span>
+        <h4>New Office Location</h4>
+        <img src="images/article2-pic.png" alt="new-office">
+        <p class="content-acticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nemo ab illum earum suscipit vero perferendis veritatis doloribus eaque amet, eius non, voluptatum totam!</p>
+        <a href="#" class="content-read-more">read more</a>
+      </article>
+      <article>
+        <span class="content-date">August 26, 2015</span>
+        <h4>Connect with coworkers</h4>
+        <img src="images/article3-pic.png" alt="connect-coworkers">
+        <p class="content-acticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quis dolorem illo, aliquam earum magnam. Rem nihil ipsam doloribus, iste.</p>
+        <a href="#" class="content-read-more">read more</a>
+      </article>
     </div>
   </section>
   <!--end .content-->
